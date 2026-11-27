@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "NeighborShare — Neighborhood Item Sharing",
+  "short_name": "NeighborShare",
+  "description": "Peer-to-peer neighborhood sharing network to borrow and lend tools, lawn equipment, party gear, and camping supplies.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F8FAFC",
+  "theme_color": "#059669",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "utilities", "social"]
+}

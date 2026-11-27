@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F0FDF4" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#064E3B" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Squircle Base with Emerald Gradient -->
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Inner Soft Glow Border -->
+  <rect x="1" y="1" width="62" height="62" rx="15" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" />
+
+  <!-- Sharing Package Box Motif -->
+  <g filter="url(#shadow)">
+    <!-- Main Box Body -->
+    <path 
+      d="M17 26C17 24.3431 18.3431 23 20 23H44C45.6569 23 47 24.3431 47 26V44C47 47.3137 44.3137 50 41 50H23C19.6863 50 17 47.3137 17 44V26Z" 
+      fill="url(#boxGrad)" 
+    />
+
+    <!-- Box Top Lid / Flap -->
+    <path 
+      d="M14 20C14 18.3431 15.3431 17 17 17H47C48.6569 17 50 18.3431 50 20V23C50 24.1046 49.1046 25 48 25H16C14.8954 25 14 24.1046 14 23V20Z" 
+      fill="#ECFDF5" 
+    />
+
+    <!-- Ribbon & Tape Accents (Emerald Brand Colors) -->
+    <!-- Vertical Ribbon -->
+    <rect x="30" y="17" width="4" height="33" fill="#059669" rx="1" />
+    
+    <!-- Sharing Heart Badge on Box Center -->
+    <path 
+      d="M32 30.5C30.8 28.5 27.5 28.2 25.8 30.1C24.1 32 24.2 34.6 26.1 36.6L32 42L37.9 36.6C39.8 34.6 39.9 32 38.2 30.1C36.5 28.2 33.2 28.5 32 30.5Z" 
+      fill="#F59E0B" 
+      stroke="#FFFFFF" 
+      stroke-width="1.5" 
+      stroke-linejoin="round"
+    />
+
+    <!-- Box Handle / Roof Ridge Hint -->
+    <line x1="22" y1="21" x2="27" y2="21" stroke="#059669" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="37" y1="21" x2="42" y2="21" stroke="#059669" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+</svg>

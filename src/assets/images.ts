@@ -1,0 +1,15 @@
+export const APP_IMAGES = {
+  hero: '/images/hero_neighborhood_sharing_1792094178028.jpg',
+  drill: '/images/item_power_drill_1792094177168.jpg',
+  washer: '/images/item_pressure_washer_1792094177414.jpg',
+  tent: '/images/item_camping_tent_1792094178573.jpg',
+  waffle: '/images/item_waffle_maker_1792094177738.jpg',
+  chairs: '/images/item_party_chairs_1792094191415.jpg',
+  ladder: '/images/item_aluminum_ladder_1792094193230.jpg',
+  aerator: '/images/item_lawn_aerator_1792094192158.jpg',
+  miterSaw: '/images/compound_miter_saw_1792599093529.jpg',
+  canopy: '/images/popup_sun_canopy_1792599093703.jpg',
+  campStove: '/images/outdoor_camp_stove_1792599095422.jpg',
+  leafBlower: '/images/cordless_leaf_blower_1792599094936.jpg',
+  foodProcessor: '/images/kitchen_food_processor_1792599094557.jpg',
+};
